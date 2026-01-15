@@ -1,4 +1,5 @@
 model/PrenoteObject.class
+app/CsvReader.class
+exception/InvalidPrenoteException.class
 service/CsvReader.class
-app/App.class
 service/Validator.class

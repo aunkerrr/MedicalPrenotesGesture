@@ -1,0 +1,21 @@
+2026-01-15 16:44:46 [main] INFO  service.CsvReader - Starting to read CSV file: /home/ritta/IdeaProjects/MedicalPrenotesGesture/dataSheet/prestazioni.csv
+2026-01-15 16:44:46 [main] DEBUG service.CsvReader - Skipping header at line 1
+2026-01-15 16:44:46 [main] ERROR service.Validator - Validation error: wait_min is not an integer 'abc'
+java.lang.NumberFormatException: For input string: "abc"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at service.Validator.parseIntField(Validator.java:63)
+	at service.CsvReader.readCsv(CsvReader.java:46)
+	at app.CsvReaderApp.main(CsvReaderApp.java:13)
+2026-01-15 16:44:46 [main] ERROR service.CsvReader - Line 102: unexpected error - wait_min is not an integer: abc - skipping
+exception.InvalidPrenoteException: wait_min is not an integer: abc
+	at service.Validator.parseIntField(Validator.java:71)
+	at service.CsvReader.readCsv(CsvReader.java:46)
+	at app.CsvReaderApp.main(CsvReaderApp.java:13)
+Caused by: java.lang.NumberFormatException: For input string: "abc"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at service.Validator.parseIntField(Validator.java:63)
+	... 2 common frames omitted

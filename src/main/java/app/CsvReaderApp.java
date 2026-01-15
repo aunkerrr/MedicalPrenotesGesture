@@ -5,7 +5,7 @@ import model.PrenoteObject;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class CsvReader {
+public class CsvReaderApp {
     public static void main(String[] args) {
         String path = "dataSheet/prestazioni.csv";
         if (args.length > 0) path = args[0];
