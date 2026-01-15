@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14107dd4-339e-4664-83a9-29faae7d94af" name="Changes" comment="dataSheet-added">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/ReaderSmoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/CsvReader.java" afterDir="false" />
-    </list>
+    <list default="true" id="14107dd4-339e-4664-83a9-29faae7d94af" name="Changes" comment="pushed-all" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,12 +36,12 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="334b7000-e616-434a-a06c-e6d149c01791" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aunkerrr/MedicalPrenotesGesture.git",
-    "accountId": "334b7000-e616-434a-a06c-e6d149c01791"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aunkerrr/MedicalPrenotesGesture.git&quot;,
+    &quot;accountId&quot;: &quot;334b7000-e616-434a-a06c-e6d149c01791&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -123,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767883341230</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pushed-all">
+      <option name="closed" value="true" />
+      <created>1768484794952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768484794952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first-super-major-commit" />
     <MESSAGE value="dataSheet-added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dataSheet-added" />
+    <MESSAGE value="pushed-all" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushed-all" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
