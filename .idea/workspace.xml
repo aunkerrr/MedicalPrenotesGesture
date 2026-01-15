@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14107dd4-339e-4664-83a9-29faae7d94af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/StatisticGrinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/parsing_details.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/parsing_details.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/CsvReaderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/CsvReaderApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CsvReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/CsvReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/CsvReaderApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/CsvReaderApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/CsvReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/CsvReader.class" afterDir="false" />
+    <list default="true" id="14107dd4-339e-4664-83a9-29faae7d94af" name="Changes" comment="minor-changes-parsing-fixed-legacy-code-deleted-output-optimized">
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768484952010</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="minor-changes-parsing-fixed-legacy-code-deleted-output-optimized">
+      <option name="closed" value="true" />
+      <created>1768515780417</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768515780417</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,7 +181,8 @@
     <MESSAGE value="first-super-major-commit" />
     <MESSAGE value="dataSheet-added" />
     <MESSAGE value="pushed-all" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushed-all" />
+    <MESSAGE value="minor-changes-parsing-fixed-legacy-code-deleted-output-optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor-changes-parsing-fixed-legacy-code-deleted-output-optimized" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

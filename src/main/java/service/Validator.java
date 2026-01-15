@@ -90,4 +90,9 @@ public class Validator {
             throw new InvalidPrenoteException(fieldName + " is not a number: " + s, e);
         }
     }
+
+    // Validates duration and ensures that duration is going to be higher than 0.
+    public static int parseDuration(String s, String fieldName, int min) {
+
+    }
 }
