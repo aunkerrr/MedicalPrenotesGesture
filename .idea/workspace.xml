@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14107dd4-339e-4664-83a9-29faae7d94af" name="Changes" comment="pushed-all">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/InvalidPrenoteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="14107dd4-339e-4664-83a9-29faae7d94af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/StatisticGrinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/CsvReaderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/parsing_details.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/parsing_details.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/CsvReaderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/CsvReaderApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CsvReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MedicalPrenotesGesture-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/ReaderSmoke.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/CsvReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/CsvReaderApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/CsvReaderApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/service/CsvReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/CsvReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/Validator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-app.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-app.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/app.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/app.AppTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +44,15 @@
     &quot;assignee&quot;: &quot;aunkerrr&quot;
   }
 }</component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="334b7000-e616-434a-a06c-e6d149c01791" />
-  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/aunkerrr/MedicalPrenotesGesture.git&quot;,
     &quot;accountId&quot;: &quot;334b7000-e616-434a-a06c-e6d149c01791&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -67,24 +61,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CsvReaderApp.executor": "Run",
-    "Application.ReaderSmoke.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CsvReaderApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReaderSmoke.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
@@ -189,6 +183,16 @@
     <MESSAGE value="dataSheet-added" />
     <MESSAGE value="pushed-all" />
     <option name="LAST_COMMIT_MESSAGE" value="pushed-all" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="exception.InvalidPrenoteException" package="exception" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

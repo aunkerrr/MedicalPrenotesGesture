@@ -1,13 +1,13 @@
 package service;
 
-import exception.InvalidPrenoteException;
 import model.PrenoteObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,12 +15,11 @@ import java.util.List;
 public class CsvReader {
     private static final Logger logger = LoggerFactory.getLogger(CsvReader.class);
 
-    public List<PrenoteObject> readCsv(String filePath) {
+    public List<PrenoteObject> readCsv(Path filePath) {
         logger.info("Starting to read CSV file: {}", filePath);
         List<PrenoteObject> result = new ArrayList<>();
         int lineNumber = 0;
-        try (FileReader fileReader = new FileReader(filePath);
-             BufferedReader bufferedReader = new BufferedReader(fileReader)) {
+        try (BufferedReader bufferedReader = Files.newBufferedReader(filePath)){
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 lineNumber++;
@@ -59,12 +58,7 @@ public class CsvReader {
                     PrenoteObject obj = new PrenoteObject(record_id, date_time, patient_id, department, procedure, priority, wait_min, duration_min, outcome_score, cost_eur);
                     result.add(obj);
                 } catch (Exception e) {
-                    logger.error("Line {}: unexpected error - {} - skipping", lineNumber, e.getMessage(), e);
-                    throw new InvalidPrenoteException("Line "
-                            + lineNumber
-                            + ": unexpected error - "
-                            + e.getMessage()
-                            + " - skipping", e);
+                    logger.error("Line {}: error parsing record - {} - skipping", lineNumber, e.getMessage(), e);
                 }
             }
             logger.info("Finished reading CSV file. Total records parsed: {}", result.size());

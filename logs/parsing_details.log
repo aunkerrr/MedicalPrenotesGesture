@@ -1,21 +1,60 @@
-2026-01-15 16:44:46 [main] INFO  service.CsvReader - Starting to read CSV file: /home/ritta/IdeaProjects/MedicalPrenotesGesture/dataSheet/prestazioni.csv
-2026-01-15 16:44:46 [main] DEBUG service.CsvReader - Skipping header at line 1
-2026-01-15 16:44:46 [main] ERROR service.Validator - Validation error: wait_min is not an integer 'abc'
+2026-01-15 23:07:11 [main] INFO  service.CsvReader - Starting to read CSV file: /home/ritta/IdeaProjects/MedicalPrenotesGesture/dataSheet/prestazioni.csv
+2026-01-15 23:07:11 [main] DEBUG service.CsvReader - Skipping header at line 1
+2026-01-15 23:07:11 [main] ERROR service.Validator - Validation error: wait_min is not an integer 'abc'
 java.lang.NumberFormatException: For input string: "abc"
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
 	at java.base/java.lang.Integer.parseInt(Integer.java:662)
 	at java.base/java.lang.Integer.parseInt(Integer.java:778)
 	at service.Validator.parseIntField(Validator.java:63)
-	at service.CsvReader.readCsv(CsvReader.java:46)
-	at app.CsvReaderApp.main(CsvReaderApp.java:13)
-2026-01-15 16:44:46 [main] ERROR service.CsvReader - Line 102: unexpected error - wait_min is not an integer: abc - skipping
+	at service.CsvReader.readCsv(CsvReader.java:47)
+	at app.CsvReaderApp.main(CsvReaderApp.java:14)
+2026-01-15 23:07:11 [main] ERROR service.CsvReader - Line 102: unexpected error - wait_min is not an integer: abc - skipping
 exception.InvalidPrenoteException: wait_min is not an integer: abc
 	at service.Validator.parseIntField(Validator.java:71)
-	at service.CsvReader.readCsv(CsvReader.java:46)
-	at app.CsvReaderApp.main(CsvReaderApp.java:13)
+	at service.CsvReader.readCsv(CsvReader.java:47)
+	at app.CsvReaderApp.main(CsvReaderApp.java:14)
 Caused by: java.lang.NumberFormatException: For input string: "abc"
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
 	at java.base/java.lang.Integer.parseInt(Integer.java:662)
 	at java.base/java.lang.Integer.parseInt(Integer.java:778)
 	at service.Validator.parseIntField(Validator.java:63)
 	... 2 common frames omitted
+2026-01-15 23:07:11 [main] WARN  service.Validator - Validation failed: invalid date_time format '2026-13-05 10:48'
+2026-01-15 23:07:11 [main] ERROR service.CsvReader - Line 103: unexpected error - invalid date_time: 2026-13-05 10:48 - skipping
+java.lang.IllegalArgumentException: invalid date_time: 2026-13-05 10:48
+	at service.Validator.parseDateTime(Validator.java:25)
+	at service.CsvReader.readCsv(CsvReader.java:42)
+	at app.CsvReaderApp.main(CsvReaderApp.java:14)
+2026-01-15 23:07:11 [main] WARN  service.Validator - Validation failed: wait_min out of range (-5). Allowed: [0, 10000]
+2026-01-15 23:07:11 [main] ERROR service.CsvReader - Line 104: unexpected error - wait_min out of range: -5 - skipping
+java.lang.IllegalArgumentException: wait_min out of range: -5
+	at service.Validator.parseIntField(Validator.java:66)
+	at service.CsvReader.readCsv(CsvReader.java:47)
+	at app.CsvReaderApp.main(CsvReaderApp.java:14)
+2026-01-15 23:07:11 [main] WARN  service.Validator - Validation failed: outcome_score out of range (140). Allowed: [0, 100]
+2026-01-15 23:07:11 [main] ERROR service.CsvReader - Line 105: unexpected error - outcome_score out of range: 140 - skipping
+java.lang.IllegalArgumentException: outcome_score out of range: 140
+	at service.Validator.parseIntField(Validator.java:66)
+	at service.CsvReader.readCsv(CsvReader.java:53)
+	at app.CsvReaderApp.main(CsvReaderApp.java:14)
+2026-01-15 23:07:11 [main] ERROR service.Validator - Validation error: cost_eur is not a number 'not_a_number'
+java.lang.NumberFormatException: For input string: "not_a_number"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:792)
+	at service.Validator.parseDoubleField(Validator.java:82)
+	at service.CsvReader.readCsv(CsvReader.java:56)
+	at app.CsvReaderApp.main(CsvReaderApp.java:14)
+2026-01-15 23:07:11 [main] ERROR service.CsvReader - Line 106: unexpected error - cost_eur is not a number: not_a_number - skipping
+exception.InvalidPrenoteException: cost_eur is not a number: not_a_number
+	at service.Validator.parseDoubleField(Validator.java:90)
+	at service.CsvReader.readCsv(CsvReader.java:56)
+	at app.CsvReaderApp.main(CsvReaderApp.java:14)
+Caused by: java.lang.NumberFormatException: For input string: "not_a_number"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:792)
+	at service.Validator.parseDoubleField(Validator.java:82)
+	... 2 common frames omitted
+2026-01-15 23:07:11 [main] WARN  service.CsvReader - Line 107: wrong number of columns (got 9) - skipping
+2026-01-15 23:07:11 [main] INFO  service.CsvReader - Finished reading CSV file. Total records parsed: 100
