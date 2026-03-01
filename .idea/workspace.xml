@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14107dd4-339e-4664-83a9-29faae7d94af" name="Changes" comment="validator-resave-(didn't finished yet)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/PrestazioneMedica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/GestionePrestazioni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/CsvReaderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/CsvReaderApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/CsvReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Validator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utility/StatisticGrinder.class" beforeDir="false" />
-    </list>
+    <list default="true" id="14107dd4-339e-4664-83a9-29faae7d94af" name="Changes" comment="finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768516661712</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished">
+      <option name="closed" value="true" />
+      <created>1772399583819</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772399583819</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +197,8 @@
     <MESSAGE value="pushed-all" />
     <MESSAGE value="minor-changes-parsing-fixed-legacy-code-deleted-output-optimized" />
     <MESSAGE value="validator-resave-(didn't finished yet)" />
-    <option name="LAST_COMMIT_MESSAGE" value="validator-resave-(didn't finished yet)" />
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
